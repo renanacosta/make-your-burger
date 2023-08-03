@@ -9,14 +9,18 @@
       <div class="input-container">
         <label for="pao">Escolha o pão:</label>
         <select name="pao" id="pao" v-model="pao">
-          <option value="">Selecione o seu pão</option>
+          <!-- Opção desativada que funciona como um placeholder -->
+          <option class="option-form" disabled value="">SELECIONE O TIPO DE PÃO</option>
+          <!-- Opções dinâmicas dos paes -->
           <option v-for="pao in paes" :key="pao.id" :value="pao.tipo">{{ pao.tipo }}</option>
         </select>
       </div>
       <div class="input-container">
         <label for="carne">Escolha a carne do seu Burger:</label>
         <select name="carne" id="carne" v-model="carne">
-          <option value="">Selecione o tipo de carne</option>
+          <!-- Opção desativada que funciona como um placeholder -->
+          <option class="option-form" disabled value="">SELECIONE O TIPO DE CARNE</option>
+          <!-- Opções dinâmicas das carnes -->
           <option v-for="carne in carnes" :key="carne.id" :value="carne.tipo">{{ carne.tipo }}</option>
         </select>
       </div>
@@ -172,5 +176,11 @@ export default {
   .submit-btn:hover {
     background-color: transparent;
     color: #222;
+  }
+
+  .option-form {
+    color: #222;
+    font-weight: bold;
+    background-color: #fcba03;
   }
 </style>
