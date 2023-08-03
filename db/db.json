@@ -94,8 +94,19 @@
         "Tomate",
         "Pepino"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 1
+    },
+    {
+      "nome": "Fulano",
+      "carne": "Alcatra",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Tomate"
+      ],
+      "status": "Solicitado",
+      "id": 2
     }
   ]
 }
