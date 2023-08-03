@@ -82,31 +82,6 @@
     }
   ],
   "burgers": [
-    {
-      "nome": "Renan",
-      "carne": "Picanha",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Bacon",
-        "Salame",
-        "Cebola roxa",
-        "Cheddar",
-        "Tomate",
-        "Pepino"
-      ],
-      "status": "Em produção",
-      "id": 1
-    },
-    {
-      "nome": "Fulano",
-      "carne": "Alcatra",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Bacon",
-        "Tomate"
-      ],
-      "status": "Solicitado",
-      "id": 2
-    }
+
   ]
 }
